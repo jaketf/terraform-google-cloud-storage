@@ -7,6 +7,17 @@ The format is based on
 and this project adheres to
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.0](https://www.github.com/terraform-google-modules/terraform-google-cloud-storage/compare/v1.7.1...v2.0.0) (2020-09-21)
+
+
+### ⚠ BREAKING CHANGES
+
+* The resource state locations have changed to use for_each, please see the upgrade guide for details.
+
+### Features
+
+* Use for_each instead of count to create resource ([#86](https://www.github.com/terraform-google-modules/terraform-google-cloud-storage/issues/86)) ([af73533](https://www.github.com/terraform-google-modules/terraform-google-cloud-storage/commit/af735332c091c6fe5de082562c8d59f979421611))
+
 ### [1.7.1](https://www.github.com/terraform-google-modules/terraform-google-cloud-storage/compare/v1.7.0...v1.7.1) (2020-09-21)
 
 
